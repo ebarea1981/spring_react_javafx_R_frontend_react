@@ -13,7 +13,7 @@
 	<version>0.0.1</version>
 
 	<name>frontend-react</name>
-	<description>MethylIT React Front End</description>
+	<description>React front-end for project "Testing Spring Boot with React and JavaFX and R" </description>
 
 	<properties>
 		<frontend-maven-plugin.version>1.11.3</frontend-maven-plugin.version>
@@ -29,6 +29,13 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!-- Submodules dependencies -->
+		<dependency>
+			<groupId>ebb.spring_react_javafx_R</groupId>
+			<artifactId>browser</artifactId>
+			<version>0.0.1</version>
 		</dependency>
 	</dependencies>
 
